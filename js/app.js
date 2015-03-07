@@ -10,6 +10,6 @@ app.config(function ($routeProvider) {
     	templateUrl: 'views/email.html'
     })
     .otherwise({ 
-      redirectTo: '/' 
+      redirectTo: '/outbox' 
     }); 
 });
